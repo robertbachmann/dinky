@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Arvo:400,700,400italic);
+@import url(https://fonts.googleapis.com/css?family=Arvo:400,700,400italic);
 
 /* MeyerWeb Reset */
 
@@ -47,7 +47,7 @@ p, ul, ol, table, dl {
 }
 
 h1, h2, h3 {
-  font-family: 'Arvo', Monaco, serif;
+  font-family: Arvo, Monaco, serif;
   line-height:1.3;
   font-weight: normal;
 }
@@ -71,7 +71,7 @@ h3 {
 }
 
 h4, h5, h6 {
-  font-family: 'Arvo', Monaco, serif;
+  font-family: Arvo, Monaco, serif;
   font-weight: 700;
 }
 
@@ -97,15 +97,13 @@ strong {
   font-weight:700;
 }
 
-ul li {
-  list-style-position: inside;
-  list-style: disc;
+ul {
+  list-style: inside;
   padding-left: 25px;
 }
 
-ol li {
-  list-style-position: inside;
-  list-style: decimal;
+ol {
+  list-style: decimal inside;
   padding-left: 20px;
 }
 
@@ -151,11 +149,20 @@ img {
   border: 1px solid #ccc;
 }
 
+p img {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+  text-align: center;
+  border: none;
+}
 
 /* Code blocks */
 
 code, pre {
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  color:#000;
   font-size:14px;
 }
 
@@ -228,7 +235,7 @@ p.header {
 }
 
 h1.header {
-  font-family: 'Arvo', sans-serif;
+  font-family: Arvo, sans-serif;
   font-size: 30px;
   font-weight: 300;
   line-height: 1.3em;
@@ -290,9 +297,7 @@ header li:hover {
 
 a.buttons {
   -webkit-font-smoothing: antialiased;
-  background: url(../images/arrow-down.svg) no-repeat 2px 1px;
-  background: url(../images/arrow-down.png) no-repeat 2px 1px\9;
-  background-size: 12px auto;
+  background: url(../images/arrow-down.png) no-repeat;
   font-weight: normal;
   text-shadow: rgba(0, 0, 0, 0.4) 0 -1px 0;
   padding: 2px 2px 2px 22px;
@@ -300,9 +305,7 @@ a.buttons {
 }
 
 a.github {
-  background: url(../images/octocat.svg) no-repeat 1px;
-  background: url(../images/octocat-small.png) no-repeat 1px\9;
-  background-size: 14px auto;
+  background: url(../images/octocat-small.png) no-repeat 1px;
 }
 
 a.buttons:hover {
