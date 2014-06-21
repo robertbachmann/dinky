@@ -293,7 +293,7 @@ header li:hover {
 
 a.buttons {
   -webkit-font-smoothing: antialiased;
-  background: url(../images/arrow-down.png) no-repeat;
+  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAATCAYAAACk9eypAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAAB50RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNS4xqx9I6wAAABR0RVh0Q3JlYXRpb24gVGltZQA4LzQvMTJCeuQEAAAAn0lEQVQokWNgQAUBQNyAhgMYcIH4uNgrdbU1/5ExSAynhlMnj73//ev7f2QMEhvVQBcNAkDsAMLHjh3+jK4BJAaTB6tVVFSstLe3+w/CZ8+c/I+uASQGkwepZQAKFqArwoMLwG4CMuYToXg+ike+f/t8CZdikBxGCAElBLBpgooJYA1WkMSP718+wRRD2dgVI2kyACmEKjbAqxhZEy7FAPYzsnpKYeUBAAAAAElFTkSuQmCC') no-repeat;
   font-weight: normal;
   text-shadow: rgba(0, 0, 0, 0.4) 0 -1px 0;
   padding: 2px 2px 2px 22px;
@@ -301,7 +301,7 @@ a.buttons {
 }
 
 a.github {
-  background: url(../images/octocat-small.png) no-repeat 1px;
+  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAASCAYAAABrXO8xAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAAB50RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNS4xqx9I6wAAABR0RVh0Q3JlYXRpb24gVGltZQA4LzQvMTJCeuQEAAABOUlEQVQ4jWNggIACIP4AxA1ALAAVc4BiBSg/AIgvAPGB////Q0RmzJi24/WrF/9ra2v+CwoKfAQK/be3swNjeXl5kKr/fn6+/8+cPvl//769v+Ealy9beuDXz+//QRhkAIyNDb998+oPXGNXZ8cLfIqR8elTJ/9Dnc3gAHICsRpBOC4u9gpDSkryAlI0gfCe3bv+o/iPFMywbeuWDWRpPH/uTAmpmt69ff2LAchQIFXjg/t3j4CjA8hpIFEzKEUxzAclNSAnHojvE9AAkg8AJwAgY35ba8t7aHplyMrKLNy9eyeKhvXr1v4C0vYgeZAmeMr5+OHd86LCgm+wNIluEygZQhM6qkaQm398//oRb/Bj0wjVDApd+717dk8mSSMMXL50wYcsjUBFAkDcD8Tngfg9EK8H4nx0jQDBOuJ4cL9aswAAAABJRU5ErkJggg==') no-repeat 1px;
 }
 
 a.buttons:hover {
