@@ -85,10 +85,6 @@ a:hover {
   text-decoration: underline;
 }
 
-a small {
-  font-size: 12px;
-}
-
 em {
   font-style: italic;
 }
@@ -331,6 +327,8 @@ footer {
   position:fixed;
   bottom:10px;
   padding-left: 50px;
+  line-height: 1.2em;
+  font-size: 12px;
 }
 
 @media print, screen and (max-width: 960px) {
